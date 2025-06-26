@@ -40,10 +40,10 @@ All repos follow the pattern:
 
 ### Orthopedic Spine
 
-- `orthospine-web-react` → React web app
-- `orthospine-api-fastapi` → FastAPI backend
-- `orthospine-mobile-flutter` → Flutter app
-- `orthospine-infra-terraform` → Infrastructure-as-code
+- `orthspine-web-react` → React web app
+- `orthspine-api-fastapi` → FastAPI backend
+- `orthspine-mobile-flutter` → Flutter app
+- `orthspine-infra-terraform` → Infrastructure-as-code
 
 ### ELMEC
 
