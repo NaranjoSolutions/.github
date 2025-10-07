@@ -1,6 +1,6 @@
-name: ✨ Feature Request
-description: Suggest a new feature or improvement.
-title: "[Feature]: "
+name: Base Issue
+description: Suggest a new issue or improvement.
+title: "[Issue]: "
 labels: ["enhancement"]
 
 assignees:
