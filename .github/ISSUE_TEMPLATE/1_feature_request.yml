@@ -16,34 +16,6 @@ body:
       required: true
 
   - type: textarea
-    id: motivation
-    attributes:
-      label: 💡 Motivation
-      description: Why is this feature important? What problem does it solve?
-    validations:
-      required: true
-
-  - type: input
-    id: ticket
-    attributes:
-      label: 🗾 Ticket (if applicable)
-      description: Reference to a related ticket, if any.
-      placeholder: "Ticket number or link"
-    validations:
-      required: false
-
-  - type: checkboxes
-    id: acceptance_criteria
-    attributes:
-      label: ✅ Acceptance Criteria
-      options:
-        - label: Describe the expected behavior
-        - label: Define any constraints or edge cases
-        - label: Include any UI/UX considerations
-    validations:
-      required: true
-
-  - type: textarea
     id: context
     attributes:
       label: 🧠 Additional Context

@@ -24,15 +24,6 @@ body:
     validations:
       required: false
 
-  - type: input
-    id: ticket
-    attributes:
-      label: 🗾 Ticket (if applicable)
-      description: Reference to a related ticket, if any.
-      placeholder: "Ticket number or link"
-    validations:
-      required: false
-
   - type: textarea
     id: context
     attributes:
