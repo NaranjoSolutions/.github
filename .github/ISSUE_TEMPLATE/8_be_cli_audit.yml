@@ -4,29 +4,29 @@ title: "[CLI Evaluation]: "
 labels: ["evaluation", "cli"]
 
 assignees:
-	- Alonsovn
+  - Alonsovn
 
 body:
-	- type: markdown
-		attributes:
-			value: |
-				Use the CLI audit prompt in [.github/ISSUE_TEMPLATE/be_cli_audit.md](https://github.com/NaranjoSolutions/.github/blob/main/.github/ISSUE_TEMPLATE/be_cli_audit.md).
+  - type: markdown
+    attributes:
+      value: |
+        Use the CLI audit prompt in [.github/ISSUE_TEMPLATE/be_cli_audit.md](https://github.com/NaranjoSolutions/.github/blob/main/.github/ISSUE_TEMPLATE/be_cli_audit.md).
 
-				The reviewer should follow that prompt for scope, scoring, required reports, and work-log output.
+        The reviewer should follow that prompt for scope, scoring, required reports, and work-log output.
 
-	- type: textarea
-		id: deliverables
-		attributes:
-			label: Deliverables Check
-			description: Confirm any report names, output paths, or extra expectations beyond the shared prompt.
-			value: |
-				Generate:
-				- /docs/evaluation/YY-MM-DD/cli-review.md
-				- /docs/evaluation/YY-MM-DD/architecture-review.md
-				- /docs/evaluation/YY-MM-DD/security-review.md
-				- /docs/evaluation/YY-MM-DD/testing-review.md
-				- /docs/evaluation/YY-MM-DD/improvement-roadmap.md
-				- /docs/work-logs/implementation-YY-MM-DD.md
-		validations:
-			required: true
+  - type: textarea
+    id: deliverables
+    attributes:
+      label: Deliverables Check
+      description: Confirm any report names, output paths, or extra expectations beyond the shared prompt.
+      value: |
+        Generate:
+        - /docs/evaluation/YY-MM-DD/cli-review.md
+        - /docs/evaluation/YY-MM-DD/architecture-review.md
+        - /docs/evaluation/YY-MM-DD/security-review.md
+        - /docs/evaluation/YY-MM-DD/testing-review.md
+        - /docs/evaluation/YY-MM-DD/improvement-roadmap.md
+        - /docs/work-logs/implementation-YY-MM-DD.md
+    validations:
+      required: true
 

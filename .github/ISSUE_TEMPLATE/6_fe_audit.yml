@@ -5,30 +5,30 @@ title: "[FE Evaluation]: "
 labels: ["evaluation", "frontend"]
 
 assignees:
-	- Alonsovn
+  - Alonsovn
 
 body:
-	- type: markdown
-		attributes:
-			value: |
-				Use the frontend audit prompt in [.github/ISSUE_TEMPLATE/fe_react_audit.md](https://github.com/NaranjoSolutions/.github/blob/main/.github/ISSUE_TEMPLATE/fe_react_audit.md).
+  - type: markdown
+    attributes:
+      value: |
+        Use the frontend audit prompt in [.github/ISSUE_TEMPLATE/fe_react_audit.md](https://github.com/NaranjoSolutions/.github/blob/main/.github/ISSUE_TEMPLATE/fe_react_audit.md).
 
-				The reviewer should follow that prompt for scope, scoring, required reports, and work-log output.
+        The reviewer should follow that prompt for scope, scoring, required reports, and work-log output.
 
-	- type: textarea
-		id: deliverables
-		attributes:
-			label: Deliverables Check
-			description: Confirm any report names, output paths, or extra expectations beyond the shared prompt.
-			value: |
-				Generate:
-				- /docs/evaluation/YY-MM-DD/frontend-review.md
-				- /docs/evaluation/YY-MM-DD/architecture-review.md
-				- /docs/evaluation/YY-MM-DD/performance-review.md
-				- /docs/evaluation/YY-MM-DD/accessibility-review.md
-				- /docs/evaluation/YY-MM-DD/security-review.md
-				- /docs/evaluation/YY-MM-DD/testing-review.md
-				- /docs/evaluation/YY-MM-DD/improvement-roadmap.md
-				- /docs/work-logs/implementation-YY-MM-DD.md
-		validations:
-			required: true
+  - type: textarea
+    id: deliverables
+    attributes:
+      label: Deliverables Check
+      description: Confirm any report names, output paths, or extra expectations beyond the shared prompt.
+      value: |
+        Generate:
+        - /docs/evaluation/YY-MM-DD/frontend-review.md
+        - /docs/evaluation/YY-MM-DD/architecture-review.md
+        - /docs/evaluation/YY-MM-DD/performance-review.md
+        - /docs/evaluation/YY-MM-DD/accessibility-review.md
+        - /docs/evaluation/YY-MM-DD/security-review.md
+        - /docs/evaluation/YY-MM-DD/testing-review.md
+        - /docs/evaluation/YY-MM-DD/improvement-roadmap.md
+        - /docs/work-logs/implementation-YY-MM-DD.md
+    validations:
+      required: true
