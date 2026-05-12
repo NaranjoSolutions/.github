@@ -1,8 +1,7 @@
-
-name: Frontend Evaluation
+name: Frontend Code Audit
 description: Request a deep frontend engineering review using the shared audit prompt.
-title: "[FE Evaluation]: "
-labels: ["evaluation", "frontend"]
+title: "[FE Code Audit]: "
+labels: ["code-audit", "frontend"]
 
 assignees:
   - Alonsovn
@@ -13,7 +12,7 @@ body:
       value: |
         Use the frontend audit prompt in [.github/ISSUE_TEMPLATE/fe_react_audit.md](https://github.com/NaranjoSolutions/.github/blob/main/.github/ISSUE_TEMPLATE/fe_react_audit.md).
 
-        The reviewer should follow that prompt for scope, scoring, required reports, and work-log output.
+        The reviewer should follow that prompt for scope, scoring, required reports.
 
   - type: textarea
     id: deliverables
@@ -22,13 +21,12 @@ body:
       description: Confirm any report names, output paths, or extra expectations beyond the shared prompt.
       value: |
         Generate:
-        - /docs/evaluation/YY-MM-DD/frontend-review.md
-        - /docs/evaluation/YY-MM-DD/architecture-review.md
-        - /docs/evaluation/YY-MM-DD/performance-review.md
-        - /docs/evaluation/YY-MM-DD/accessibility-review.md
-        - /docs/evaluation/YY-MM-DD/security-review.md
-        - /docs/evaluation/YY-MM-DD/testing-review.md
-        - /docs/evaluation/YY-MM-DD/improvement-roadmap.md
-        - /docs/work-logs/implementation-YY-MM-DD.md
+        - /docs/code-audits/YY-MM-DD/frontend-review.md
+        - /docs/code-audits/YY-MM-DD/architecture-review.md
+        - /docs/code-audits/YY-MM-DD/performance-review.md
+        - /docs/code-audits/YY-MM-DD/accessibility-review.md
+        - /docs/code-audits/YY-MM-DD/security-review.md
+        - /docs/code-audits/YY-MM-DD/testing-review.md
+        - /docs/code-audits/YY-MM-DD/improvement-roadmap.md
     validations:
       required: true

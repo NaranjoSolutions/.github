@@ -1,7 +1,7 @@
-name: CLI Evaluation
+name: CLI Code Audit
 description: Request a deep CLI engineering review using the shared audit prompt.
-title: "[CLI Evaluation]: "
-labels: ["evaluation", "cli"]
+title: "[CLI Code Audit]: "
+labels: ["code-audit", "cli"]
 
 assignees:
   - Alonsovn
@@ -12,7 +12,7 @@ body:
       value: |
         Use the CLI audit prompt in [.github/ISSUE_TEMPLATE/be_cli_audit.md](https://github.com/NaranjoSolutions/.github/blob/main/.github/ISSUE_TEMPLATE/be_cli_audit.md).
 
-        The reviewer should follow that prompt for scope, scoring, required reports, and work-log output.
+        The reviewer should follow that prompt for scope, scoring, required reports.
 
   - type: textarea
     id: deliverables
@@ -21,12 +21,12 @@ body:
       description: Confirm any report names, output paths, or extra expectations beyond the shared prompt.
       value: |
         Generate:
-        - /docs/evaluation/YY-MM-DD/cli-review.md
-        - /docs/evaluation/YY-MM-DD/architecture-review.md
-        - /docs/evaluation/YY-MM-DD/security-review.md
-        - /docs/evaluation/YY-MM-DD/testing-review.md
-        - /docs/evaluation/YY-MM-DD/improvement-roadmap.md
-        - /docs/work-logs/implementation-YY-MM-DD.md
+        - /docs/code-audits/YY-MM-DD/project-evaluation.md
+        - /docs/code-audits/YY-MM-DD/cli-architecture-review.md
+        - /docs/code-audits/YY-MM-DD/cli-ux-review.md
+        - /docs/code-audits/YY-MM-DD/security-review.md
+        - /docs/code-audits/YY-MM-DD/performance-review.md
+        - /docs/code-audits/YY-MM-DD/packaging-review.md
+        - /docs/code-audits/YY-MM-DD/improvement-roadmap.md
     validations:
       required: true
-

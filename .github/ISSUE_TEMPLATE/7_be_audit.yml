@@ -1,7 +1,7 @@
-name: Backend Evaluation
+name: Backend Code Audit
 description: Request a deep backend engineering review using the shared audit prompt.
-title: "[BE Evaluation]: "
-labels: ["evaluation", "backend"]
+title: "[BE Code Audit]: "
+labels: ["code-audit", "backend"]
 
 assignees:
   - Alonsovn
@@ -12,7 +12,7 @@ body:
       value: |
         Use the backend audit prompt in [.github/ISSUE_TEMPLATE/be_api_audit.md](https://github.com/NaranjoSolutions/.github/blob/main/.github/ISSUE_TEMPLATE/be_api_audit.md).
 
-        The reviewer should follow that prompt for scope, scoring, required reports, and work-log output.
+        The reviewer should follow that prompt for scope, scoring, required reports.
 
   - type: textarea
     id: deliverables
@@ -21,15 +21,13 @@ body:
       description: Confirm any report names, output paths, or extra expectations beyond the shared prompt.
       value: |
         Generate:
-        - /docs/evaluation/YY-MM-DD/backend-review.md
-        - /docs/evaluation/YY-MM-DD/api-review.md
-        - /docs/evaluation/YY-MM-DD/architecture-review.md
-        - /docs/evaluation/YY-MM-DD/security-review.md
-        - /docs/evaluation/YY-MM-DD/scalability-review.md
-        - /docs/evaluation/YY-MM-DD/observability-review.md
-        - /docs/evaluation/YY-MM-DD/testing-review.md
-        - /docs/evaluation/YY-MM-DD/improvement-roadmap.md
-        - /docs/work-logs/implementation-YY-MM-DD.md
+        - /docs/code-audits/YY-MM-DD/backend-review.md
+        - /docs/code-audits/YY-MM-DD/api-review.md
+        - /docs/code-audits/YY-MM-DD/architecture-review.md
+        - /docs/code-audits/YY-MM-DD/security-review.md
+        - /docs/code-audits/YY-MM-DD/scalability-review.md
+        - /docs/code-audits/YY-MM-DD/observability-review.md
+        - /docs/code-audits/YY-MM-DD/testing-review.md
+        - /docs/code-audits/YY-MM-DD/improvement-roadmap.md
     validations:
       required: true
-
