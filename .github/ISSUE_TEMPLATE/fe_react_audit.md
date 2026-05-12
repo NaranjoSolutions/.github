@@ -85,6 +85,15 @@ Analyze the frontend project for:
 - Asset optimization
 - Caching strategies
 
+## SEO
+
+- Metadata quality (title, description, canonical)
+- Structured data usage (schema.org)
+- Crawlability and indexability
+- SSR/SSG readiness for SEO-critical pages
+- Core Web Vitals impact on ranking
+- Open Graph and social metadata
+
 ## Accessibility & UX
 
 - Accessibility compliance
@@ -115,6 +124,7 @@ Analyze the frontend project for:
 - Sensitive data exposure
 - Client-side validation gaps
 - CSP readiness
+- OWASP Top 10 coverage (frontend-applicable categories)
 
 ## DX & Maintainability
 
@@ -162,10 +172,6 @@ Generate reports in:
 
 /docs/evaluation/YY-MM-DD/\*.md
 
-Generate implementation work logs in:
-
-/docs/work-logs/implementation-YY-MM-DD.md
-
 # REQUIRED REPORTS
 
 Generate:
@@ -178,17 +184,13 @@ Generate:
 - testing-review.md
 - improvement-roadmap.md
 
-# IMPLEMENTATION WORK LOG
-
-Generate concise implementation planning documents for frontend engineers.
-
-Include:
-
 - Refactor priorities
 - Architecture improvements
 - UI consistency improvements
 - Performance optimizations
+- SEO optimizations
 - Accessibility fixes
+- OWASP Top 10 findings inside security-review.md
 - Testing improvements
 - Technical debt reduction
 

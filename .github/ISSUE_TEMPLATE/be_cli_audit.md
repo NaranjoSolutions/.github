@@ -128,10 +128,6 @@ Generate reports in:
 
 /docs/evaluation/YY-MM-DD/\*.md
 
-Generate implementation work logs in:
-
-/docs/work-logs/implementation-YY-MM-DD.md
-
 # REQUIRED REPORTS
 
 Generate:
@@ -143,12 +139,6 @@ Generate:
 - performance-review.md
 - packaging-review.md
 - improvement-roadmap.md
-
-# IMPLEMENTATION WORK LOG
-
-Generate concise implementation planning documents for engineers.
-
-Include:
 
 - Refactor priorities
 - CLI UX improvements

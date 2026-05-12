@@ -18,7 +18,7 @@ Your task is to perform a deep engineering review of a Python backend/API applic
 Backend:
 
 - Python
-- FastAPI / Flask / Django
+- FastAPI / Flask
 - Async processing
 - ORM/database access
 - API architecture
@@ -80,6 +80,8 @@ Analyze the backend project for:
 - SSRF risks
 - Dependency vulnerabilities
 - Input sanitization
+- OWASP Top 10 coverage
+- OWASP API Security Top 10 coverage
 
 ## Performance & Scalability
 
@@ -162,10 +164,6 @@ Generate reports in:
 
 /docs/evaluation/YY-MM-DD/\*.md
 
-Generate implementation work logs in:
-
-/docs/work-logs/implementation-YY-MM-DD.md
-
 # REQUIRED REPORTS
 
 Generate:
@@ -179,15 +177,12 @@ Generate:
 - testing-review.md
 - improvement-roadmap.md
 
-# IMPLEMENTATION WORK LOG
-
-Generate concise implementation planning documents for backend engineers.
-
 Include:
 
 - Refactor priorities
 - API improvements
 - Security fixes
+- OWASP Top 10 and OWASP API Security Top 10 findings inside security-review.md
 - Scalability improvements
 - Database optimizations
 - Observability improvements
