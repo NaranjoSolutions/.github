@@ -154,6 +154,9 @@ Reference:
 
 # IMPORTANT RULES
 
+- Before starting a new audit, check for previous audits in /docs/evaluation/ and perform a follow-up on unresolved findings
+- Include a brief follow-up section in the new reports summarizing: resolved items, unresolved items, and regressions since the last audit
+
 - Prioritize simplicity and usability
 - Prefer maintainable CLI patterns
 - Avoid unnecessary frameworks
