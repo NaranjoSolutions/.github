@@ -21,12 +21,12 @@ body:
       description: Confirm any report names, output paths, or extra expectations beyond the shared prompt.
       value: |
         Generate:
-        - /docs/code-audits/YY-MM-DD/project-evaluation.md
-        - /docs/code-audits/YY-MM-DD/cli-architecture-review.md
-        - /docs/code-audits/YY-MM-DD/cli-ux-review.md
-        - /docs/code-audits/YY-MM-DD/security-review.md
-        - /docs/code-audits/YY-MM-DD/performance-review.md
-        - /docs/code-audits/YY-MM-DD/packaging-review.md
-        - /docs/code-audits/YY-MM-DD/improvement-roadmap.md
+        - /docs/code-audits/YYYY-MM-DD/project-evaluation.md
+        - /docs/code-audits/YYYY-MM-DD/cli-architecture-review.md
+        - /docs/code-audits/YYYY-MM-DD/cli-ux-review.md
+        - /docs/code-audits/YYYY-MM-DD/security-review.md
+        - /docs/code-audits/YYYY-MM-DD/performance-review.md
+        - /docs/code-audits/YYYY-MM-DD/packaging-review.md
+        - /docs/code-audits/YYYY-MM-DD/improvement-roadmap.md
     validations:
       required: true

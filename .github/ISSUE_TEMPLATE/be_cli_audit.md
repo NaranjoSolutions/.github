@@ -112,6 +112,7 @@ Analyze the CLI project for:
 ## SCORING
 
 Provide scores from 0–10 for:
+Use a 0–10 scale where 10 is the highest score.
 
 - Architecture
 - CLI UX
@@ -128,7 +129,7 @@ Provide scores from 0–10 for:
 
 Generate reports in:
 
-/docs/code-audits/YY-MM-DD/\*.md
+/docs/code-audits/YYYY-MM-DD/\*.md
 
 ## REQUIRED REPORTS
 
@@ -152,7 +153,7 @@ Generate:
 
 Reference:
 
-- /docs/code-audits/YY-MM-DD/\*.md
+- /docs/code-audits/YYYY-MM-DD/\*.md
 
 ## IMPORTANT RULES
 

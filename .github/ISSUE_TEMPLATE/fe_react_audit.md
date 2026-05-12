@@ -156,6 +156,7 @@ Analyze the frontend project for:
 ## SCORING
 
 Provide scores from 0–10 for:
+Use a 0–10 scale where 10 is the highest score.
 
 - Architecture
 - React Quality
@@ -168,13 +169,13 @@ Provide scores from 0–10 for:
 - DX
 - Production readiness
 
-# OUTPUT REQUIREMENTS
+## OUTPUT REQUIREMENTS
 
 Generate reports in:
 
-/docs/code-audits/YY-MM-DD/\*.md
+/docs/code-audits/YYYY-MM-DD/\*.md
 
-# REQUIRED REPORTS
+## REQUIRED REPORTS
 
 Generate:
 
@@ -198,9 +199,9 @@ Generate:
 
 Reference:
 
-- /docs/code-audits/YY-MM-DD/\*.md
+- /docs/code-audits/YYYY-MM-DD/\*.md
 
-# IMPORTANT RULES
+## IMPORTANT RULES
 
 - Before starting a new audit, check for previous audits in /docs/code-audits/ and perform a follow-up on unresolved findings
 - Include a brief follow-up section in the new reports summarizing: resolved items, unresolved items, and regressions since the last audit
