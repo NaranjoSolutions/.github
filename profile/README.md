@@ -1,6 +1,8 @@
 # NaranjoSolutions
 
-Freelance development lab focused on delivering modern, scalable software solutions.
+Freelance and consulting practice by [Alonso Villanueva](https://alonsovndev.com), Senior Software Engineer & Team Lead, delivering modern, scalable software solutions for clients.
+
+**Featured client project:** [Orthopedic Spine clinic platform](https://orthspine-web-react.vercel.app/), a React site with online booking and an admin dashboard on a FastAPI + PostgreSQL backend.
 
 ---
 
@@ -82,13 +84,9 @@ If you're a collaborator or contractor and need access, please [contact me](mail
 NaranjoSolutions is open to freelance opportunities and strategic collaborations. If you're looking for a trusted developer to bring your idea to life:
 
 📧 **Email**: [Alonso VN](mailto:alonsonh94@gmail.com)  
-🌐 **Website**: _Coming soon_  
+🌐 **Website**: [alonsovndev.com](https://alonsovndev.com)  
 📍 **Based in**: Costa Rica (working remotely worldwide)
 
 ---
 
-## 🧪 Under Development
-
-This organization is actively evolving — templates, docs, and automation tooling are being refined over time.
-
-Stay tuned! 🚧
+Open-source work lives in [alonsovndev](https://github.com/alonsovndev); the engineering community is [EndToEndLabCR](https://github.com/EndToEndLabCR).
